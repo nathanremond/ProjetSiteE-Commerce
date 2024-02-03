@@ -42,20 +42,19 @@ Une branche doit être créée à partir de l'issue pour savoir quelle tâche es
 
 Lorsque l'issue est résolue, elle doit être fermée.
 
+Expliquez les
+étapes à suivre pour créer une nouvelle fonc9onnalité, soumeTre un correc9f
+
 ## Revue de code
 
-§ Discussions, commentaire et revue de code :
-o Encouragez les discussions et les commentaires au sein des pull requests et des issues. Cela
-facilitera la communica9on au sein de l'équipe et permeTra de résoudre rapidement les
-problèmes.
-o Instaurez une pra9que de revue de code avant la fusion des branches. Cela garan9ra la qualité
-du code et permeTra aux membres de l'équipe de partager leurs connaissances.
+Lorsque le développement sur la branche est terminé, il faut faire une pull request avec un titre et une description des changements.
+
+Celle-ci devra être vérifiée par quelqu'un pour être mergée.
 
 ## Organisation du code source
-§ Documenta9on du processus : Documentez le processus de ges9on du code source. Expliquez les
-étapes à suivre pour créer une nouvelle fonc9onnalité, soumeTre un correc9f, et effectuer une revue de
-code. La mise en place d'une ges9on efficace du code source garan9ra un flux de travail fluide tout au
-long du projet, facilitant la collabora9on et minimisant les conflits poten9els.
+
+- app: Contient les fichiers de l'application.
+- docs: Contient la documentation utilisateur.
 
 ## Intégration continue
 § Intégra9on avec GitHub Ac9ons :
