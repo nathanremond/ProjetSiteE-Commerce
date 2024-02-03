@@ -42,8 +42,8 @@ Une branche doit être créée à partir de l'issue pour savoir quelle tâche es
 
 Lorsque l'issue est résolue, elle doit être fermée.
 
-Expliquez les
-étapes à suivre pour créer une nouvelle fonc9onnalité, soumeTre un correc9f
+Pour créer une nouvelle fonctionnalité, mettre le label **enhancement**.
+Pour créer un bug, mettre le label **bug**.
 
 ## Revue de code
 
