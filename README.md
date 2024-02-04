@@ -26,13 +26,17 @@ Le paramétrage de la protection est visible [ici](https://github.com/nathanremo
 
 ## Gestion des commits
 
-ges9on de version avec des commits descrip9fs.
-La ges9on efficace du code source est essen9elle pour assurer la collabora9on harmonieuse au sein de l'équipe
-de développement. Dans ceTe étape, nous meTrons en place un système de contrôle de version avec
-Git/GitHub.
-§ Bonnes pra9ques de ges9on de version : Enforcez des bonnes pra9ques de ges9on de version.
-Encouragez des messages de commit descrip9fs et informa9fs. U9lisez des branches spécifiques pour
-chaque fonc9onnalité ou correc9f.
+Création d'un fichier **CODEOWNERS** pour protéger les dossiers et fichiers de répertoire .github. 
+
+S'il y a des changements sur des dossiers ou fichiers appartenant au répertoire .github, l'utilisateur notifié dans le fichier CODEOWNERS sera ajouté à la review de la pull request.
+
+Les commits suivants sont à utiliser :
+
+- **feat:{commit-name}** : Pour les nouvelles fonctionnalités.
+- **fix:{commit-name}** : Pour les corrections de bugs.
+- **docs:{commit-name}** : Pour les ajouts dans la documentation.
+
+D'autres formes de commits [ici](https://www.conventionalcommits.org/en/v1.0.0/).
 
 ## Gestion des issues
 
