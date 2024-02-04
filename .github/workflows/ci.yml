@@ -1,0 +1,14 @@
+name: ci
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  tests:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - run: echo "Executer les tests unitaires"
