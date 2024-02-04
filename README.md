@@ -57,15 +57,13 @@ Celle-ci devra être vérifiée par quelqu'un pour être mergée.
 - docs: Contient la documentation utilisateur.
 
 ## Intégration continue
-§ Intégra9on avec GitHub Ac9ons :
-o Explorez les fonc9onnalités de CI/CD offertes par GitHub Ac9ons. Configurez des workflows
-pour automa9ser les tests unitaires et le déploiement con9nu sur un serveur de test.
-o Configurer GitHub Ac9ons pour automa9ser les tests unitaires.
-o MeTre en place un pipeline de déploiement con9nu pour déployer automa9quement les
-modifica9ons validées sur un serveur de test.
-§ Tests et valida9on :
-o MeTre en place des tests unitaires en u9lisant JavaScript. Effectuer des tests manuels pour
-s'assurer de la qualité de l'interface u9lisateur.
+
+Un workflow **ci** pour executer les tests unitaires. Il se déclenche lorsqu'il y a une demande de pull request. Il faut utiliser une commande pour déclencher les tests.
+
+## Déploiement continu
+
+Un workflow **cd** pour le déploiement. Il se déclenche lorsqu'il y a un push sur la branche main.
+Il faut utiliser une commande pour déclencher le déploiement.
 
 ## Documentation utilisateur
 
