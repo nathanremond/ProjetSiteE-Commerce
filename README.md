@@ -9,9 +9,7 @@
 
 ## Description
 
-§ Créa9on du repository GitHub : Commencez par créer un repository GitHub pour le projet. Choisissez
-un nom significa9f et ajoutez une descrip9on détaillée du projet. Assurez-vous que le repository est
-ini9alisé avec un fichier README.
+Notre site Web est une plateforme de location en ligne pour des voitures d'occasion. Notre site contiendra une page d'accueil et une barre de recherches pour permettre aux internautes de naviguer facilement sur le site web, une page catalogue pour regarder les voitures disponibles et une page panier pour louer une voiture.
 
 ## Gestion des branches
 
